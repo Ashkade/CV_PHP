@@ -1,0 +1,41 @@
+body{
+    background:url(Aksan.png) fixed;
+   margin: 0px;
+   padding: 0px;
+    color: black;
+    background-color: rgb(173, 167, 167);
+    font-size : 32px;
+}
+
+.Menutop{
+    /* position: fixed; */
+    /* margin: auto; */
+    text-align: center;
+    /* border: 15px solid; */
+    background-color: rgb(21, 122, 117);
+    font-weight: 700;
+    height: 100px;
+    padding-top: 40px;
+    
+}
+#fixe{
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+.accueil{
+    height: 250px;
+         
+}
+/* .margebandeau{
+    margin-top: 250px;
+} */
+
+.blocktext{
+    width: 50%;
+    margin-left: 10%;
+    border: inset rgb(243, 242, 242);
+    background-color: antiquewhite;
+    margin-top: 250px;
+}

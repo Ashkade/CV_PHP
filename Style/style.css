@@ -1,0 +1,93 @@
+/* import de la police ggl font play */
+
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Roboto:wght@100&family=Tilt+Neon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border: red solid;
+    background-color: RGB(0, 151, 178);
+}
+
+main{
+    border: blue solid;
+    background-color: RGB(255, 252, 246);
+    flex-grow: 1;
+}
+footer{
+    border: solid green;
+    background: #f1f1f1;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.menu-icon {
+    margin  : 20px auto;
+    width   : 20px;
+    height  : 14px;
+    cursor  : pointer;
+    position: relative;
+  }
+  
+  .menu-icon h1 {
+    background-color: black;
+    height          : 2px;
+    position        : absolute;
+    width           : 100%;
+    left            : 0;
+    transition      : all 0.3s ease;
+    border-radius   : 10px;
+  }
+  
+  .menu-icon h1:first-child {
+    top: 0;
+  }
+  
+  .menu-icon h1:nth-child(2) {
+    top: 6px;
+  }
+  
+  .menu-icon h1:last-child {
+    top: 12px;
+  }
+  
+  .menu-icon:hover h1:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon:hover h1:first-child,
+  .menu-icon:hover h1:last-child {
+    top             : 6px;
+    background-color: red;
+  }
+  
+  .menu-icon:hover h1:first-child {
+    transform: rotate(45deg);
+  }
+  
+  .menu-icon:hover h1:last-child {
+    transform: rotate(-45deg);
+  }
+
