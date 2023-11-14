@@ -12,7 +12,7 @@
     
     <?php
         include_once("Header/header.php");
-        include_once("Main/main.php");
+        include_once("Main/home.php");
         include_once("Footer/footer.php");
     ?>
 
