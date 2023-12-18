@@ -67,3 +67,33 @@ footer{
   'opsz' 24
 }
 
+/* Partie HOME */
+
+.home{
+    background-color: black;
+    /* flex-grow: 1; */
+    height: 100vh;
+}
+
+.home p{
+    color: #FFF;
+    font-family: Play;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.large{
+    color: #FFF;
+    font-family: Play;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home .material-symbols-outlined{
+    color: white;
+    font-size: 150px;
+}

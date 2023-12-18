@@ -13,6 +13,11 @@
     <?php
         include_once("Header/header.php");
         include_once("Main/home.php");
+        include_once("Main/about.php");
+        include_once("Main/skills.php");
+        include_once("Main/portfolio.php");
+        include_once("Main/contact.php");
+        include_once("Main/form.php");
         include_once("Footer/footer.php");
     ?>
 
